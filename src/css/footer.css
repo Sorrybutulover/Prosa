@@ -1,0 +1,165 @@
+.footer_main{
+ 
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    align-items: center;
+    padding: 2rem 14rem;
+    color: white;
+    border: none;
+
+    /* box-shadow: -2px 0px 8px rgba(0, 0, 0, 0.1), 2px 0px 8px rgba(0, 0, 0, 0.1); */
+}
+
+
+@media (max-width: 1300px) {
+    .footer_main {
+        flex-direction: column;
+        justify-content: center;
+        padding: 2rem 0; 
+    }
+    .company{
+        margin: 2rem 0;
+    }
+    .resources{
+        margin: 2rem 0;
+    }
+    .quick{
+        margin: 2rem 0;
+    }
+}
+ul {
+    list-style: none;
+    margin: auto;
+    padding: 0;
+
+}
+li{
+    padding: 0.5rem 0;
+
+}
+a{
+    text-decoration: none;
+    color: black;
+    
+}
+a:hover{
+    color: #cbb8ff;
+}
+.footer-head{
+    color: black;
+    text-transform: uppercase;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    text-decoration-thickness: 2px; 
+    text-underline-offset: 10px;
+}
+
+#social-head-2{
+    color: black;
+    margin-top: -30px;
+    border-color: #515151;
+    text-transform: uppercase;
+}
+#our-tel2{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#our-mail2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#our-first-2{
+    color: black;
+    padding-left: 0.5rem;
+    text-transform: uppercase;
+    margin: 0;
+ 
+}
+#our-second-2{
+    margin: 0;
+}
+#footer-head-2{
+    margin-top: -17px;
+}
+.footer-icon{
+    margin-top: -0.3rem;
+    color: #cbb8ff;
+}
+
+.social{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+.social-head{
+    padding-bottom: 3rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    border-bottom: 1px solid rgb(182, 182, 182);
+}
+
+.social-icons{
+    margin-top: 2rem;
+    display: flex;
+
+}
+
+.social-links{
+    margin: 0 0.5rem;
+}
+
+.social-links:hover{
+    margin: 0 0.5rem;
+    cursor: pointer
+}
+
+.our-text{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+}
+.our-head{
+    margin-left: 1rem;
+    background-color: #cbb8ff;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 0.2rem 0.5rem 0.5rem;
+    font-size: 1rem;
+}
+.our-fio{
+    margin-left: 1rem;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+}
+
+.our-tel{
+    margin-left: 1rem;
+    display: flex;
+}
+
+.our-mail{
+    margin-left: 1rem;
+    display: flex;
+}
+.our-first{
+    font-size: 0.7rem;
+    color: rgb(63, 63, 132);
+}
+.our-second{
+    font-size: 0.7rem;
+    color: rgb(143, 143, 143);
+    padding-left: 0.4rem;
+}
+.our-punkt:hover .our-about-me {
+    display: block;
+    border-bottom: 0.1rem solid #cbb8ff; 
+    transition: 0.1s ease;
+  }

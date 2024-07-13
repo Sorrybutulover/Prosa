@@ -1,0 +1,95 @@
+.main-cont {
+    margin-top: 7rem;
+    min-height: 100vh;
+    background-color: #ffffff;
+    margin-bottom: 4rem;
+    border-radius: 2rem;
+    padding: 4rem;
+}
+
+.message-cont-left {
+    display: flex;
+    justify-content: flex-start; /* Исправлено на flex-start */
+    margin-bottom: 1rem;
+}
+
+.message-cont-right {
+    display: flex;
+    justify-content: flex-end; /* Исправлено на flex-end */
+    margin-bottom: 1rem;
+}
+
+.message-left, .message-right {
+    border-radius: 20px;
+    background-color: #cbb8ff;
+    padding: 10px;
+    color: white;
+    font-size: 1.2rem;
+    max-width: 720px;
+}
+
+.feedback-section {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.feedback-input {
+    flex-grow: 1;
+    margin-right: 10px;
+    font-size: 19.2px;
+    height: 100px; /* Увеличиваем высоту textarea */
+    line-height: 25px;
+    padding: 10px;
+}
+
+.feedback-button {
+    flex-shrink: 0;
+}
+
+.modal-input {
+    margin-bottom: 15px;
+}
+
+.modal-content {
+    background-color: #f8f9fa;
+    border-radius: 10px;
+}
+
+.modal-header,
+.modal-footer {
+    border: none;
+}
+
+.modal-content {
+    background-color: #f8f9fa;
+    border-radius: 15px;
+    width: 800px;
+    height: auto;
+}
+
+.form-label {
+    margin-bottom: 0.5rem;
+    padding-left: 10px; 
+    font-size: 400;
+    line-height: 1rem;
+}
+
+.modal-input {
+    border-radius: 15px;
+    resize: none;
+}
+
+.modal-body {
+    position: relative;
+    flex: 1 1 auto;
+    padding: 0;
+}
+
+.modal-footer {
+    padding: 0;
+}
+
+.btn-close {
+    margin-top: -30px !important;
+}
